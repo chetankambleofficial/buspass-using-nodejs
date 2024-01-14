@@ -1,0 +1,16 @@
+'INSERT INTO BUSPASS VALUES ("buspassData.NAME","buspassData.FATHER_NAME",buspassData.MOBILE_NO,"buspassData.DOB"
+,"buspassData.COLLEGE","buspassData.GENDER","buspassData.ADHAAR","buspassData.CAT","buspassData.FROM_LOC","buspassData.TO_LOC"
+,"buspassData.CHANGE_LOC","buspassData.TODATE")',
+    [
+       
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        
+    ],

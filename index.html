@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>Buss Pass form</title>
+		
+		<style type="text/css">
+			.main{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: #f2f0f0;
+			}
+
+			.form{
+				background-color: #fafafa;
+				width: 900px;
+				padding-top:25px;
+				padding-bottom: 25px;
+				box-shadow: 0px 0px 5px;
+				margin-top: 10px;
+				margin-bottom: 50px;
+			}
+
+			.form table{
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			hr{
+				width: 700px;
+				height: 1.5px;
+				background-color: black;
+			}
+
+			body{
+				font-size: large;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="" method="POST">
+		<div class="main">
+			<div class="form">
+				<center>
+					<h3>Karnataka State Road Transport Corporation</h3>
+					<h1>Bus Pass Application</h1><hr>
+					<table>
+						<tr><td><br></td></tr>
+						<tr>
+							<td><b>Name</b><br><input type="text" id="yname" name="name" size="50" required/></td>
+						</tr>
+
+						<tr><td><br></td></tr>
+		
+						<tr> 
+							<td><b>Father Name</b><br><input type="text" name="fname" id="fname" size="50"/><td>
+						</tr>
+
+						<tr><td><br></td></tr>
+			 
+						<tr>
+							<td><b>Mobile Number</b><br><input type="text" name="Mobile" id="phno" size="50" required/><td>
+						</tr>
+
+						<tr><td><br></td></tr>
+	
+			  			<tr>
+							<td><b>DATE OF BIRTH</b><br><input type="date" name="dob" id="dob" required/></td>
+						</tr>
+
+						<tr><td><br></td></tr>
+
+						<tr>
+							<td><b>Educational Institution Name</b><br>
+							<input type="text" id="iname" name="college" size="50"/></td>
+						</tr>
+						<tr><td><br></td></tr>
+						<tr>
+							<td><b>Gender</b><br>
+							<input type="radio" name="gender" value="male"  id="g1" required/>Male<br>
+							<input type="radio" name="gender" value="female" id="g2" required/>Female</td>
+						</tr>
+						<tr><td><br></td></tr>
+						<tr>
+							<td><b>Adhaar No</b><br>
+							<input type="text" id="adhaar" name="adhaar" size="50" required/></td>
+						</tr>
+						<tr><td><br></td></tr>
+						<tr>
+							<td><b>Category</b> 
+							<br><input type="radio" id="r1" name="cat" value="gm" />GM<br>
+								<input type="radio" id="r2" name="cat" value="obc" required/>OBC<br>
+								<input type="radio" id="r3" name="cat" value="sc" required/>SC<br>
+								<input type="radio" id="r4" name="cat" value="st" required/>ST</td>
+						</tr>
+						<tr><td><br></td></tr>
+						<tr>
+							<td><b>Pass Route From</b><br>
+							<input type="text" id="from" size="50" name="from" required/><br>TO<br>
+							<input type="text" id="to" size="50"  name="to" required/></td>
+						</tr>
+						<tr><td><br></td></tr>
+						<tr>
+							<td><b>Route Change place</b><br>
+							<input type="text" id="change" name="change" size="50"/></td>
+						</tr>
+						<tr><td><br></td></tr>
+			
+						<tr>
+							<td><b>Date</b><br><input type="date" name="todate" id="da"/></td>
+						</tr>
+
+						<tr><td><br></td></tr>
+			
+						<tr>
+							<td><input type="submit" value="submit"></td>
+							<td><input type="reset"</td>
+						</tr>
+					</table>
+				</center>
+			</div>
+		</div>
+	</form>
+	</body>
+</html>
